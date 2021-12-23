@@ -46,8 +46,9 @@ con.commit()
 
 cursor.execute(""" INSERT INTO JobTitle (jobTitle)
                     VALUES 
-                        (''),
-                        ('Мужчина')
+                        ('Специалист пресс-службы'),
+                        ('менеджер проектов	'),
+                        ('кочегар машинист котельной')
                 """)
 con.commit()
 
